@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    background: linear-gradient(#B388EB,#66D7D1);
+    font-family: 'Ostrich Sans';
+    width:100%;
+    min-height: 100vh;
+    min-width: 325px;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.title{
+    color: white;
+    font-family: 'Ostrich Sans';
+}
+.search_input {
+    width: 70%;
+    border-radius: 50px;
+    height: 40px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    font-family: 'Muli';
+}
+
+::placeholder { 
+    color: white;
+    opacity: 1;
+    font-family: 'Muli';    
+}
+.filter_search{
+    display: flex;
+    justify-content: center;
+}
+.container_filter_category{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.filter_category{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_icon{
+    width: auto;
+    height: 15px;
+}
+
