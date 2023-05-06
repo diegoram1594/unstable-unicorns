@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background: linear-gradient(#B388EB,#66D7D1);
-    font-family: 'Ostrich Sans';
+    font-family: 'Muli';
     width:100%;
     min-height: 100vh;
     min-width: 325px;
@@ -39,16 +39,36 @@ header{
     display: flex;
     justify-content: center;
 }
-.container_filter_category{
+.container_filter{
     margin-left: 15%;
     margin-right: 15%;
+}
+.container_filter_title{
+    font-weight: bold;
+    font-size: 19px;
 }
 .filter_category{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .img_icon{
     width: auto;
     height: 15px;
 }
+.container_images{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container_card{
+    height: 180px;
+    width: auto;
+    border-radius: 14%;
+    padding: 10px;
+}
+
 
