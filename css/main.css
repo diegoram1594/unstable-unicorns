@@ -60,14 +60,14 @@ header{
     margin-top: 20px;
     margin-left: 5%;
     margin-right: 5%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
 }
 .container_card{
     height: 180px;
     width: auto;
-    border-radius: 14%;
+    border-radius: 25px;
     padding: 10px;
 }
 
