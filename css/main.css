@@ -56,9 +56,28 @@ header{
     width: auto;
     height: 15px;
 }
+.container__button{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container__button-cards {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Muli';
+}
 .container_images{
-    margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -69,6 +88,26 @@ header{
     width: auto;
     border-radius: 25px;
     padding: 10px;
+}
+
+.float_help{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#5B4E77;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    text-decoration: none;
+}
+
+.float_icon{
+	margin-top: 12px;
+    font-weight: bold;
+    font-size: 27px;
 }
 
 
