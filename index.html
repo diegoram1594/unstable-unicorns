@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link href="https://fonts.cdnfonts.com/css/ostrich-sans-2?styles=29061" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>Unstable Unicorns</title>
@@ -48,20 +49,26 @@
     <div class="separator">Unicornios</div>
 
     <div class="container_images">
-        <img class="container_card" src="assets/spanish cards/unicorns/granNarval.png">
-        <img class="container_card" src="assets/spanish cards/unicorns/unicornioMolesto.png">
-        <img class="container_card" src="assets/spanish cards/unicorns/unicornioSirena.png">
+        <img class="container_card" id="unicorn_great_narwhal" onclick="modalView('unicorn_great_narwhal')" src="assets/spanish cards/unicorns/granNarval.png">
+        <img class="container_card" id="unicorn_annoying" onclick="modalView('unicorn_annoying')" src="assets/spanish cards/unicorns/unicornioMolesto.png">
+        <img class="container_card" id="unicorn_mermaid" onclick="modalView('unicorn_mermaid')"  src="assets/spanish cards/unicorns/unicornioSirena.png">
     </div>
     
     <div class="separator">Mejoras</div>
     <div class="container_images">
-        <img class="container_card" src="assets/spanish cards/upgrades/dobleComba.png">
-        <img class="container_card" src="assets/spanish cards/upgrades/auraArcoiris.png">
-        <img class="container_card" src="assets/spanish cards/upgrades/lazoDeUnicornio.png">
+        <img class="container_card" id="upgrade_double" onclick="modalView('upgrade_double')" src="assets/spanish cards/upgrades/dobleComba.png">
+        <img class="container_card" id="upgrade_aura" onclick="modalView('upgrade_aura')" src="assets/spanish cards/upgrades/auraArcoiris.png">
+        <img class="container_card" id="upgrade_lasso" onclick="modalView('upgrade_lasso')" src="assets/spanish cards/upgrades/lazoDeUnicornio.png">
     </div>
 
-    <a href="#" class="float_help">
+    <div class="float_help">
         <div class="float_icon">?</div>
-    </a>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
 </body>
+<script src="js/modal.js"></script>
 </html>
