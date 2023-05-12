@@ -1,7 +1,8 @@
+var modal = document.getElementById("myModal");
+var modalImg = document.getElementById("img01");
+
 function modalView(imageId){
-    var modal = document.getElementById("myModal");
     var img = document.getElementById(imageId);
-    var modalImg = document.getElementById("img01");
     modal.style.display = "block";
     modalImg.src = img.src;
 }
@@ -9,6 +10,10 @@ function modalView(imageId){
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
-    var modal = document.getElementById("myModal");
     modal.style.display = "none";
+}
+
+function modalRules(){
+    modal.style.display = "block";
+    modalImg.src = "assets/reglas.png";
 }
