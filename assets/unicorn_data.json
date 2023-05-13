@@ -1,0 +1,20 @@
+unicornData = `[
+    {
+        "unicornName" : "The Great Narwhal", 
+        "unicornNameSpanish" : "El Gran Narval", 
+        "id" : "unicorn_great_narwhal",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/granNarval.png"
+    },
+    {
+        "unicornName" : "Annoying Flying Unicorn", 
+        "unicornNameSpanish" : "Unicornio Molesto", 
+        "id" : "unicorn_annoying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMolesto.png"
+    },
+    {
+        "unicornName" : "Mermaid Unicorn", 
+        "unicornNameSpanish" : "Unicornio Sirena", 
+        "id" : "unicorn_mermaid",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioSirena.png"
+    }
+    ]`;

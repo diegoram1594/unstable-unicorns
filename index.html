@@ -48,17 +48,15 @@
 
     <div class="separator">Unicornios</div>
 
-    <div class="container_images">
-        <img class="container_card" id="unicorn_great_narwhal" onclick="modalView('unicorn_great_narwhal')" src="assets/spanish cards/unicorns/granNarval.png">
-        <img class="container_card" id="unicorn_annoying" onclick="modalView('unicorn_annoying')" src="assets/spanish cards/unicorns/unicornioMolesto.png">
-        <img class="container_card" id="unicorn_mermaid" onclick="modalView('unicorn_mermaid')"  src="assets/spanish cards/unicorns/unicornioSirena.png">
+    <div class="container_images" id="container_unicorns">
     </div>
     
     <div class="separator">Mejoras</div>
-    <div class="container_images">
-        <img class="container_card" id="upgrade_double" onclick="modalView('upgrade_double')" src="assets/spanish cards/upgrades/dobleComba.png">
-        <img class="container_card" id="upgrade_aura" onclick="modalView('upgrade_aura')" src="assets/spanish cards/upgrades/auraArcoiris.png">
-        <img class="container_card" id="upgrade_lasso" onclick="modalView('upgrade_lasso')" src="assets/spanish cards/upgrades/lazoDeUnicornio.png">
+    <div class="container_images" id="container_upgrades">
+    </div>
+
+    <div class="separator">Deterioro</div>
+    <div class="container_images" id="container_downgrades">
     </div>
 
     <div class="float_help" onclick="modalRules()">
@@ -71,4 +69,8 @@
     </div>
 </body>
 <script src="js/modal.js"></script>
+<script src="assets/downgrade_data.json"></script>
+<script src="assets/upgrade_data.json"></script>
+<script src="assets/unicorn_data.json"></script>
+<script src="js/main.js"></script>
 </html>

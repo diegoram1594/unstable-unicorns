@@ -1,0 +1,21 @@
+downgradeData = `[
+    {
+        "upgradeName" : "Tiny Stable", 
+        "upgradeNameSpanish" : "Establo Pequeño", 
+        "id" : "downgrade_tiny_stable",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/establoPequeno.png"
+    },
+    {
+        "upgradeName" : "Sadistic Ritual", 
+        "upgradeNameSpanish" : "Establo Sadico", 
+        "id" : "downgrade_sadistic",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/ritualSadico.png"
+    },
+    {
+        "upgradeName" : "Broken Stable", 
+        "upgradeNameSpanish" : "Establo Roto", 
+        "id" : "downgrade_broken_stable",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/establoRoto.png"
+    }
+
+    ]`;
