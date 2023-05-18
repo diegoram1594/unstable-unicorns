@@ -16,7 +16,7 @@
         <h1 class="title">Unstable Unicorns</h1>
     </header>
     <div class="filter_search">
-        <input class="search_input" type="text" placeholder="Buscar...">
+        <input class="search_input" id="search" type="text" oninput="searchBar()" placeholder="Buscar...">
     </div>
     <br>
 
@@ -46,16 +46,15 @@
         <button id="favourites" class="container__button-cards" type="button">Favoritas</button>
     </div>
 
-    <div class="separator">Unicornios</div>
-
+    <div class="separator" id="separator_unicorn">Unicornios</div>
     <div class="container_images" id="container_unicorns">
     </div>
     
-    <div class="separator">Mejoras</div>
+    <div class="separator" id="separator_upgrade">Mejoras</div>
     <div class="container_images" id="container_upgrades">
     </div>
 
-    <div class="separator">Deterioro</div>
+    <div class="separator" id="separator_downgrade">Deterioro</div>
     <div class="container_images" id="container_downgrades">
     </div>
 

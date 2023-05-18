@@ -25,3 +25,29 @@ function addCard(item, container){
     imgCard.onclick = function() { modalView(item.id) }
     container.appendChild(imgCard);
 }
+
+function searchContainer(container, list, separatorName){
+    let text = document.getElementById("search").value.toLowerCase();
+    var separator = document.getElementById(separatorName);
+    var filterElements = list.filter(value => 
+        value.name.toLowerCase().includes(text) || 
+        value.nameSpanish.toLowerCase().includes(text));
+    container.replaceChildren();
+    filterElements.forEach(item => {
+        addCard(item, container);
+    });
+    if(filterElements.length == 0){
+        separator.style.visibility = "hidden";
+    }
+    else{
+        separator.style.visibility = "visible";
+    }
+        
+}
+
+function searchBar(){
+    searchContainer(containerUnicorns, unicorns, "separator_unicorn");
+    searchContainer(containerUpgrades, upgrades, "separator_upgrade");
+    searchContainer(containerDowngrades, downgrades, "separator_downgrade");
+    document
+}
