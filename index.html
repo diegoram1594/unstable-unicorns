@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/modal.css">
     <link href="https://fonts.cdnfonts.com/css/ostrich-sans-2?styles=29061" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
     <title>Unstable Unicorns</title>
 </head>
 <body>
@@ -24,19 +24,19 @@
         <label class="container_filter_title">Categoria</label> 
         <div class="filter_category">
             <div>
-                <input type="checkbox"> <img src="assets/magicUnicron.png" class="img_icon"> Unicornio Magico
+                <input type="checkbox" id="category_unicorn" onclick="categoryFilter()"> <img src="assets/magicUnicron.png" class="img_icon"> Unicornio Magico
             </div>
             <div>
-                <input type="checkbox"> <img src="assets/upgrade.png" class="img_icon"> Mejora
+                <input type="checkbox" id="category_upgrade" onclick="categoryFilter()"> <img src="assets/upgrade.png" class="img_icon"> Mejora
             </div>
             <div>
-                <input type="checkbox"> <img src="assets/instant.png" class="img_icon"> Instantanea
+                <input type="checkbox" id="category_instant" onclick="categoryFilter()"> <img src="assets/instant.png" class="img_icon"> Instantanea
             </div>
             <div>
-                <input type="checkbox"> <img src="assets/downgrade.png" class="img_icon"> Deterioro
+                <input type="checkbox" id="category_downgrade" onclick="categoryFilter()"> <img src="assets/downgrade.png" class="img_icon"> Deterioro
             </div>
             <div>
-                <input type="checkbox"> <img src="assets/magic.png" class="img_icon"> Magica
+                <input type="checkbox" id="category_magic" onclick="categoryFilter()"> <img src="assets/magic.png" class="img_icon"> Magica
             </div> 
         </div>
     </div>
