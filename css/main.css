@@ -7,10 +7,48 @@ body{
     min-width: 325px;
     color: white;
 }
-header{
+
+input, div.submenu {
+    display: none;
+}
+ 
+
+label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+input:checked~div.submenu {
+    display: block;
+}
+
+#container_language_selector{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#header_language_selector{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#language_icon{
+    width: auto;
+    height: 25px;  
+}
+
+.submenu{
+    position: absolute;
+    top: 30px;
+}
+
+#header_title{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
 }
 .title{
     color: white;

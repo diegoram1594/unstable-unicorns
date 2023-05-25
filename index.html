@@ -12,9 +12,25 @@
     <title>Unstable Unicorns</title>
 </head>
 <body>
+    
     <header>
-        <h1 class="title">Unstable Unicorns</h1>
+        <div id="container_language_selector">
+            <div id="header_language_selector">
+                <input id="language_selector" type="checkbox" name="menu" />
+                <label for="language_selector">
+                    <img id="language_icon" src="assets/world.png" />
+                </label>
+                <div class="submenu">
+                    <div class="sumenu_item"><a>EN</a></div>
+                    <div class="sumenu_item"><a>ES</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="header_title">
+            <h1 class="title">Unstable Unicorns</h1>
+        </div>
     </header>
+    
     <div class="filter_search">
         <input class="search_input" id="search" type="text" oninput="searchBar()" placeholder="Buscar...">
     </div>
