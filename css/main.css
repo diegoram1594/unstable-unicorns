@@ -8,7 +8,7 @@ body{
     color: white;
 }
 
-input, div.submenu {
+.input_language, div.submenu {
     display: none;
 }
  
@@ -19,7 +19,7 @@ label {
     cursor: pointer;
 }
 
-input:checked~div.submenu {
+.input_language:checked~div.submenu {
     display: block;
 }
 
