@@ -43,7 +43,14 @@ label {
 
 .submenu{
     position: absolute;
-    top: 30px;
+    top: 35px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    overflow: hidden;
+}
+
+.submenu_item{
+    padding: 7px;
 }
 
 #header_title{
@@ -94,24 +101,7 @@ label {
     width: auto;
     height: 15px;
 }
-.container__button{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.container__button-cards {
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-    border: 0px;
-    padding: 10px;
-    color: white;
-    font-size: 14px;
-    font-family: 'Muli';
-}
+
 .separator::before {
     background: linear-gradient(to right, rgba(240, 240, 240, 0), #fff);
     margin-right: 4vh;
