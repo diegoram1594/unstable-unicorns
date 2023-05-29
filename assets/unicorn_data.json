@@ -18,6 +18,12 @@ unicornData = `[
         "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioSirena.png"
     },
     {
+        "name" : "Swift Flying Unicorn", 
+        "nameSpanish" : "Unicornio Veloz", 
+        "id" : "unicorn_swift_flying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioVeloz.png"
+    },
+    {
         "name" : "Black Knight Unicorn", 
         "nameSpanish" : "Caballero Negro", 
         "id" : "unicorn_black_knight",
