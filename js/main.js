@@ -31,7 +31,7 @@ function addCard(item, container){
 }
 
 function searchContainer(container, list, separatorName, visibility){
-    let text = document.getElementById("search").value.toLowerCase();
+    let text = document.getElementById("search").value.toLowerCase().trim();
     let separator = document.getElementById(separatorName);
     let filterElements = list.filter(value => 
         (value.name.toLowerCase().includes(text) || 
