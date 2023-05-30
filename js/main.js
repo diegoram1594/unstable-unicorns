@@ -98,4 +98,5 @@ function getDefaultLanguage(){
 function changeLanguage(language){
     appLanguage = language;
     searchBar();
+    modalViewUpdate();
 }

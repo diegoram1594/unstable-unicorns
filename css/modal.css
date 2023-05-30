@@ -40,9 +40,49 @@
 .close {
     position: absolute;
     top: 15px;
-    right: 35px;
+    left: 35px;
     color: #f1f1f1;
-    font-size: 40px;
+    height: 40px;
     font-weight: bold;
     transition: 0.3s;
+}
+
+#container_language_selector_modal{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+#header_language_selector_modal{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input_languag_modal, div.submenu_modal {
+    display: none;
+}
+
+.input_language_modal:checked~div.submenu_modal {
+    display: block;
+}
+
+.input_language_modal, div.submenu_modal {
+    display: none;
+}
+
+.submenu_modal{
+    position: absolute;
+    top: 55px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+    overflow: hidden;
+}
+
+.submenu_item_modal{
+    padding: 7px;
+    color: white;
 }

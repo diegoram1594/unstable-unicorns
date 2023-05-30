@@ -74,7 +74,19 @@
     </div>
 
     <div id="myModal" class="modal">
-        <span class="close">&times;</span>
+        <img class="close" src="assets/arrow.png">
+        <div id="container_language_selector_modal">
+            <div id="header_language_selector_modal">
+                <input id="language_selector_modal" type="checkbox" name="menu" class="input_language_modal" />
+                <label for="language_selector_modal">
+                    <img id="language_icon_modal" src="assets/world.png" />
+                </label>
+                <div class="submenu_modal">
+                    <div class="submenu_item_modal" onclick="changeLanguage('en')"><a>EN</a></div>
+                    <div class="submenu_item_modal" onclick="changeLanguage('es')"><a>ES</a></div>
+                </div>
+            </div>
+        </div>
         <img class="modal-content" id="img01">
     </div>
 
