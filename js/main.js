@@ -1,7 +1,9 @@
 let unicornVisibility = true;
 let upgradeVisibility = true;
 let donwgradeVisibility = true;
+let validLanguages = ["en", "es"];
 let containerUnicorns = document.getElementById('container_unicorns');
+let appLanguage = getDefaultLanguage();
 
 let unicorns = JSON.parse(unicornData);
 unicorns.forEach(unicorn => {
@@ -22,7 +24,11 @@ downgrades.forEach(downgrade => {
 
 function addCard(item, container){
     let imgCard = document.createElement("img");
-    imgCard.src = item.imgSrcSpanish;
+    if (appLanguage == "es") {
+        imgCard.src = item.imgSrcSpanish;
+    } if (appLanguage == "en") {
+        imgCard.src = item.imgSrcEnglish;
+    }
     imgCard.className = "container_card";
     imgCard.id = item.id;
     imgCard.onclick = function() { modalView(item.id) };
@@ -41,10 +47,10 @@ function searchContainer(container, list, separatorName, visibility){
         addCard(item, container);
     });
     if(filterElements.length == 0){
-        separator.style.visibility = "hidden";
+        separator.style.display = "none";
     }
     else{
-        separator.style.visibility = "visible";
+        separator.style.display = "flex";
     }   
 }
 
@@ -76,4 +82,20 @@ function categoryFilter(){
     } finally{
         searchBar();
     }
+}
+
+function getDefaultLanguage(){
+    let language = navigator.language;
+    if (language) {
+        let defaultNavLang = language.substring(0,2);
+        if (validLanguages.includes(defaultNavLang)){
+            return defaultNavLang;
+        }
+    }
+    return "en";
+}
+
+function changeLanguage(language){
+    appLanguage = language;
+    searchBar();
 }

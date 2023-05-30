@@ -114,6 +114,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .separator::after {
     background: linear-gradient(to left, rgba(240, 240, 240, 0), #fff);

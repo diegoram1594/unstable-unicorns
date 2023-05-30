@@ -3,19 +3,22 @@ downgradeData = `[
         "name" : "Tiny Stable", 
         "nameSpanish" : "Establo Pequeño", 
         "id" : "downgrade_tiny_stable",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/establoPequeno.png"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/establoPequeno.png",
+        "imgSrcEnglish": "assets/english cards/downgrades/tinystable.jpg"
     },
     {
         "name" : "Sadistic Ritual", 
         "nameSpanish" : "Establo Sadico", 
         "id" : "downgrade_sadistic",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/ritualSadico.png"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/ritualSadico.png",
+        "imgSrcEnglish": "assets/english cards/downgrades/sadisticritual.jpg"
     },
     {
         "name" : "Broken Stable", 
         "nameSpanish" : "Establo Roto", 
         "id" : "downgrade_broken_stable",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/establoRoto.png"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/establoRoto.png",
+        "imgSrcEnglish": "assets/english cards/downgrades/brokenstable.jpg"
     }
 
     ]`;

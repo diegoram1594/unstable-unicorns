@@ -3,19 +3,22 @@ upgradeData = `[
         "name" : "Double Dutch", 
         "nameSpanish" : "Doble Comba", 
         "id" : "upgrade_double",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/dobleComba.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/dobleComba.png",
+        "imgSrcEnglish": "assets/english cards/upgrades/doubledutch.jpg"
     },
     {
         "name" : "Rainbow Aura", 
         "nameSpanish" : "Aura Arcoiris", 
         "id" : "upgrade_aura",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/auraArcoiris.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/auraArcoiris.png",
+        "imgSrcEnglish": "assets/english cards/upgrades/rainbowaura.jpg"
     },
     {
         "name" : "Unicorn Lasso", 
         "nameSpanish" : "Lazo De Unicornio", 
         "id" : "upgrade_lasso",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/lazoDeUnicornio.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/lazoDeUnicornio.png",
+        "imgSrcEnglish": "assets/english cards/upgrades/unicornlasso.jpg"
     }
 
     ]`;
