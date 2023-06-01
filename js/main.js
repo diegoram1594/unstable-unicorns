@@ -4,6 +4,9 @@ let donwgradeVisibility = true;
 let validLanguages = ["en", "es"];
 let containerUnicorns = document.getElementById('container_unicorns');
 let appLanguage = getDefaultLanguage();
+let backToTopBtn = document.getElementById("backToTop");
+
+window.onscroll = function() {scrollFunction()};
 
 let unicorns = JSON.parse(unicornData);
 unicorns.forEach(unicorn => {
@@ -98,5 +101,18 @@ function getDefaultLanguage(){
 function changeLanguage(language){
     appLanguage = language;
     searchBar();
-    modalViewUpdate();
+    modalViewUpdate(appLanguage);
+}
+
+function scrollFunction() {
+    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+  }
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }

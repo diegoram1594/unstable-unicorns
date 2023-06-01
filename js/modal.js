@@ -11,9 +11,14 @@ function modalView(imageId){
     document.body.style.overflowY= "hidden";
 }
 
-function modalViewUpdate(){
+function modalViewUpdate(appLanguage){
     if (imageIdModal == "rules"){
-        modalImg.src = "assets/reglas.png";
+        if(appLanguage == "es"){
+            modalImg.src = "assets/reglas.png";
+        }
+        if(appLanguage == "en"){
+            modalImg.src = "assets/rules.png";
+        }
     }else{
         let img = document.getElementById(imageIdModal);
         modalImg.src = img.src;
