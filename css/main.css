@@ -102,9 +102,18 @@ label {
     height: 15px;
 }
 
+.container_backtotop{
+    display: flex;
+    justify-content: center;
+}
+
+#img_backtotop{
+    height: 16px;
+    width: auto;
+}
+
 #backToTop{
     position: fixed;
-    left: 35%;
     top: 30px;
     border-radius: 50px;
     padding-left: 40px;
