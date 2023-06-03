@@ -102,6 +102,22 @@ label {
     height: 15px;
 }
 
+#backToTop{
+    position: fixed;
+    left: 35%;
+    top: 30px;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #17bff3;
+    border: 2px solid white;
+    color: white;
+    display: none;
+    font-size: medium;
+}
+
 .separator::before {
     background: linear-gradient(to right, rgba(240, 240, 240, 0), #fff);
     margin-right: 4vh;

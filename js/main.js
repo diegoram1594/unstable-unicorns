@@ -105,7 +105,7 @@ function changeLanguage(language){
 }
 
 function scrollFunction() {
-    if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         backToTopBtn.style.display = "block";
     } else {
         backToTopBtn.style.display = "none";
