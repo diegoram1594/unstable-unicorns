@@ -24,7 +24,7 @@ function modalViewUpdate(appLanguage){
     }else{
         let img = document.getElementById(imageIdModal);
         modalImg.classList.add('flip-card-inner');
-        modalImg.src = img.src;
+        setTimeout(()=> modalImg.src = img.src, 100);
         setTimeout(()=> modalImg.classList.remove('flip-card-inner'), 255);
     }
     

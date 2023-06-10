@@ -99,9 +99,11 @@ function getDefaultLanguage(){
 }
 
 function changeLanguage(language){
-    appLanguage = language;
-    searchBar();
-    modalViewUpdate(appLanguage);
+    if (language != appLanguage){
+        appLanguage = language;
+        searchBar();
+        modalViewUpdate(appLanguage);
+    }
 }
 
 function scrollFunction() {
