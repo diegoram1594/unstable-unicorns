@@ -19,9 +19,13 @@ function modalViewUpdate(appLanguage){
         if(appLanguage == "en"){
             modalImg.src = "assets/rules.png";
         }
+        modalImg.classList.add('flip-card-inner');
+        setTimeout(()=> modalImg.classList.remove('flip-card-inner'), 255);
     }else{
         let img = document.getElementById(imageIdModal);
+        modalImg.classList.add('flip-card-inner');
         modalImg.src = img.src;
+        setTimeout(()=> modalImg.classList.remove('flip-card-inner'), 255);
     }
     
 }
