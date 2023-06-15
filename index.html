@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/modal.css">
-    <title>Unstable Unicorns</title>
+    <title>Unstable Unicorns: Card Explorer</title>
 </head>
 <body>
     
@@ -27,7 +27,10 @@
             </div>
         </div>
         <div id="header_title">
-            <h1 class="title">Unstable Unicorns</h1>
+            <div class="title">Unstable Unicorns</div>
+        </div>
+        <div id="header_title">
+            <div class="subtitle">Card Explorer</div>
         </div>
     </header>
     
@@ -76,6 +79,14 @@
     <div class="container_images" id="container_downgrades">
     </div>
 
+    <div class="separator" id="separator_instant">Instantanea</div>
+    <div class="container_images" id="container_instant">
+    </div>
+
+    <div class="separator" id="separator_magic">Magica</div>
+    <div class="container_images" id="container_magic">
+    </div>
+
     <div class="float_help" onclick="modalRules()">
         <div class="float_icon">?</div>
     </div>
@@ -103,6 +114,8 @@
     </footer>
 </body>
 <script src="js/modal.js"></script>
+<script src="assets/magic_data.json"></script>
+<script src="assets/instant_data.json"></script>
 <script src="assets/downgrade_data.json"></script>
 <script src="assets/upgrade_data.json"></script>
 <script src="assets/unicorn_data.json"></script>

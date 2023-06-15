@@ -60,6 +60,14 @@ label {
 .title{
     color: white;
     font-family: 'Ostrich Sans';
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color: white;
+    font-family: 'Ostrich Sans';
+    font-size: 26px;
+    margin-bottom: 20px;
 }
 .search_input {
     width: 70%;
@@ -91,6 +99,7 @@ label {
 .container_filter_title{
     font-weight: bold;
     font-size: 19px;
+    margin-bottom: 10px;
 }
 .filter_category{
     display: flex;

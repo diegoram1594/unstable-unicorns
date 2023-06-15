@@ -1,0 +1,212 @@
+instantData = `[
+    {
+        "name" : "The Great Narwhal", 
+        "nameSpanish" : "El Gran Narval", 
+        "id" : "unicorn_great_narwhal",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/granNarval.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/thegreatnarwhal.jpg"
+    },
+    {
+        "name" : "Annoying Flying Unicorn", 
+        "nameSpanish" : "Unicornio Molesto", 
+        "id" : "unicorn_annoying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMolesto.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/annoying.png"
+    },
+    {
+        "name" : "Mermaid Unicorn", 
+        "nameSpanish" : "Unicornio Sirena", 
+        "id" : "unicorn_mermaid",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioSirena.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/mermaid.jpg"
+    },
+    {
+        "name" : "Swift Flying Unicorn", 
+        "nameSpanish" : "Unicornio Veloz", 
+        "id" : "unicorn_swift_flying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioVeloz.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/swiftflying.jpg"
+    },
+    {
+        "name" : "Black Knight Unicorn", 
+        "nameSpanish" : "Caballero Negro", 
+        "id" : "unicorn_black_knight",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/caballeroNegro.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/blackknight.jpg"
+    },
+    {
+        "name" : "Unicorn On The Cob", 
+        "nameSpanish" : "Cuerno De Maiz", 
+        "id" : "unicorn_on_the_cob",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/cuernoDeMaiz.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/unicornonthecob.jpg"
+    },
+    {
+        "name" : "Magical Kittencorn", 
+        "nameSpanish" : "Gatocornio", 
+        "id" : "unicorn_kittencorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/gatocornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/kittencorn.png"
+    },
+    {
+        "name" : "Llamacorn", 
+        "nameSpanish" : "Llamacornio", 
+        "id" : "unicorn_llamacorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/llamacornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/llamacorn.png"
+    },
+    {
+        "name" : "Classy Narwhal", 
+        "nameSpanish" : "Narval Con Clase", 
+        "id" : "unicorn_classy_narwhal",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/narvalConClase.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/classynarwhal.jpg"
+    },
+    {
+        "name" : "Shabby The Narwhal", 
+        "nameSpanish" : "Narval Pirata", 
+        "id" : "unicorn_shabby_narwhal",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/narvalPirata.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/shabby.jpg"
+    },
+    {
+        "name" : "Alluring Narwhal", 
+        "nameSpanish" : "Narval Seductor", 
+        "id" : "unicorn_alluring_narwhal",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/narvalSeductor.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/alluring.png"
+    },
+    {
+        "name" : "Puppicorn", 
+        "nameSpanish" : "Perricornio", 
+        "id" : "unicorn_puppicorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/perricornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/puppicorn.jpg"
+    },
+    {
+        "name" : "Queen Bee Unicorn", 
+        "nameSpanish" : "Reina Unicornio", 
+        "id" : "unicorn_queen_bee",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/reinaUnicornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/queenbee.jpg"
+    },
+    {
+        "name" : "Rhinocorn", 
+        "nameSpanish" : "Rinocornio", 
+        "id" : "unicorn_rhinocorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/rinocornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/rhinocorn.jpg"
+    },
+    {
+        "name" : "Shark With A Horn", 
+        "nameSpanish" : "Tibucornio", 
+        "id" : "unicorn_shark_horn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/tibucornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/sharkwithahorn.jpg"
+    },
+    {
+        "name" : "Narwhal Torpedo", 
+        "nameSpanish" : "Torpedo Narval", 
+        "id" : "unicorn_narwhal_torpedo",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/torpedoNarval.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/narwhaltorpedo.jpg"
+    },
+    {
+        "name" : "Angel Unicorn", 
+        "nameSpanish" : "Unicornio Angelical", 
+        "id" : "unicorn_angel_unicorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioAngelical.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/angelunicorn.png"
+    },
+    {
+        "name" : "Rainbow Unicorn", 
+        "nameSpanish" : "Unicornio Arcoiris", 
+        "id" : "unicorn_rainbow_unicorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioArcoiris.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/rainbow.jpg"
+    },
+    {
+        "name" : "Greedy Flying Unicorn", 
+        "nameSpanish" : "Unicornio Codicioso", 
+        "id" : "unicorn_greedy_flying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioCodicioso.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/greedyflying.jpg"
+    },
+    {
+        "name" : "Chainsaw Unicorn", 
+        "nameSpanish" : "Unicornio Con Motosierra", 
+        "id" : "unicorn_chainsaw",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioConMotosierra.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/chainsaw.jpg"
+    },
+    {
+        "name" : "Ginormous Unicorn", 
+        "nameSpanish" : "Unicornio Descomunal", 
+        "id" : "unicorn_ginormous",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioDescomunal.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/ginormous.jpg"
+    },
+    {
+        "name" : "Extremely Destructive Unicorn", 
+        "nameSpanish" : "Unicornio Destructor", 
+        "id" : "unicorn_destructive",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioDestructor.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/destructive.png"
+    },
+    {
+        "name" : "Unicorn Phoenix", 
+        "nameSpanish" : "Unicornio Fenix", 
+        "id" : "unicorn_phoenix",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioFenix.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/phoenix.png"
+    },
+    {
+        "name" : "Majestic Flying Unicorn", 
+        "nameSpanish" : "Unicornio Majestuoso", 
+        "id" : "unicorn_majestic",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMajestuoso.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/thegreatnarwhal.jpg"
+    },
+    {
+        "name" : "Magical Flying Unicorn", 
+        "nameSpanish" : "Unicornio Mariposa", 
+        "id" : "unicorn_magical_flying",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMariposa.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/magicalflying.jpg"
+    },
+    {
+        "name" : "Stabby The Unicorn", 
+        "nameSpanish" : "Unicornio Navajero", 
+        "id" : "unicorn_stabby",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioNavajero.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/stabby.jpg"
+    },
+    {
+        "name" : "Seductive Unicorn", 
+        "nameSpanish" : "Unicornio Seductor", 
+        "id" : "unicorn_seductive",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioSeductor.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/seductive.jpg"
+    },
+    {
+        "name" : "Extremely Fertile Unicorn", 
+        "nameSpanish" : "Unicornio Ultra Fertil", 
+        "id" : "unicorn_fertile",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioUltraFertil.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/fertile.png"
+    },
+    {
+        "name" : "Zombie Unicorn", 
+        "nameSpanish" : "Unicornio Zombi", 
+        "id" : "unicorn_zombie",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioZombi.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/zombie.png"
+    },
+    {
+        "name" : "Americorn", 
+        "nameSpanish" : "Usacornio", 
+        "id" : "unicorn_usa",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/usacornio.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/americorn.png"
+    }
+    ]`;

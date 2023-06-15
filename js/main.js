@@ -1,6 +1,8 @@
 let unicornVisibility = true;
 let upgradeVisibility = true;
-let donwgradeVisibility = true;
+let downgradeVisibility = true;
+let instantVisibility = true;
+let magicVisibility = true;
 let validLanguages = ["en", "es"];
 let containerUnicorns = document.getElementById('container_unicorns');
 let appLanguage = getDefaultLanguage();
@@ -23,6 +25,18 @@ let containerDowngrades = document.getElementById('container_downgrades');
 let downgrades = JSON.parse(downgradeData);
 downgrades.forEach(downgrade => {
    addCard(downgrade, containerDowngrades);
+});
+
+let containerInstant = document.getElementById('container_instant');
+let instants = JSON.parse(instantData);
+instants.forEach(instant => {
+   addCard(instant, containerInstant);
+});
+
+let containerMagic = document.getElementById('container_magic');
+let magics = JSON.parse(magicData);
+magics.forEach(magic => {
+   addCard(magic, containerMagic);
 });
 
 function addCard(item, container){
@@ -60,7 +74,7 @@ function searchContainer(container, list, separatorName, visibility){
 function searchBar(){
     searchContainer(containerUnicorns, unicorns, "separator_unicorn", unicornVisibility);
     searchContainer(containerUpgrades, upgrades, "separator_upgrade", upgradeVisibility);
-    searchContainer(containerDowngrades, downgrades, "separator_downgrade", donwgradeVisibility);
+    searchContainer(containerDowngrades, downgrades, "separator_downgrade", downgradeVisibility);
 }
 
 function categoryFilter(){
@@ -75,13 +89,16 @@ function categoryFilter(){
             !categoryDowngrade && !categoryMagic){
             unicornVisibility = true;
             upgradeVisibility = true;
-            donwgradeVisibility = true;
-            //TODO add all categories
+            downgradeVisibility = true;
+            instantVisibility = true;
+            magicVisibility = true;
             return;
         }
         unicornVisibility = categoryUnicorn;
         upgradeVisibility = categoryUpgrade;
-        donwgradeVisibility = categoryDowngrade;
+        downgradeVisibility = categoryDowngrade;
+        instantVisibility = categoryInstant;
+        magicVisibility = categoryMagic;
     } finally{
         searchBar();
     }
