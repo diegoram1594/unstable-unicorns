@@ -75,6 +75,8 @@ function searchBar(){
     searchContainer(containerUnicorns, unicorns, "separator_unicorn", unicornVisibility);
     searchContainer(containerUpgrades, upgrades, "separator_upgrade", upgradeVisibility);
     searchContainer(containerDowngrades, downgrades, "separator_downgrade", downgradeVisibility);
+    searchContainer(containerInstant, instants, "separator_instant", instantVisibility);
+    searchContainer(containerMagic, magics, "separator_magic", magicVisibility);
 }
 
 function categoryFilter(){
