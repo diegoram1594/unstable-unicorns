@@ -6,9 +6,48 @@ let magicVisibility = true;
 let validLanguages = ["en", "es"];
 let containerUnicorns = document.getElementById('container_unicorns');
 let appLanguage = getDefaultLanguage();
+setLabels();
 let backToTopBtn = document.getElementById("backToTop");
 
 window.onscroll = function() {scrollFunction()};
+
+function setLabels(){
+    var dictioanry = {
+        "es": {
+            "category": "Categoria",
+            "separator_unicorn": "Unicornios",
+            "separator_upgrade": "Mejoras",
+            "separator_downgrade": "Deterioros",
+            "separator_instant": "Instantáneas",
+            "separator_magic": "Mágicas",
+            "category_unicorn_label": "Unicornio",
+            "category_upgrade_label": "Mejora",
+            "category_downgrade_label": "Deterioro",
+            "category_instant_label": "Instantáneas",
+            "category_magic_label": "Mágica"
+        },
+        "en": {
+            "category": "Category",
+            "separator_unicorn": "Unicorns",
+            "separator_upgrade": "Upgrades",
+            "separator_downgrade": "Downgrades",
+            "separator_instant": "Instants",
+            "separator_magic": "Magics",
+            "category_unicorn_label": "Unicorn",
+            "category_upgrade_label": "Upgrade",
+            "category_downgrade_label": "Downgrade",
+            "category_instant_label": "Instant",
+            "category_magic_label": "Magic"
+        }
+    }
+    var obj = dictioanry[appLanguage];
+    for (var key in obj){
+      var value = obj[key];
+      document.getElementById(key).innerHTML = value;
+    }
+    
+}
+
 
 let unicorns = JSON.parse(unicornData);
 unicorns.forEach(unicorn => {
@@ -118,8 +157,18 @@ function getDefaultLanguage(){
 }
 
 function changeLanguage(language){
+
     if (language != appLanguage){
         appLanguage = language;
+        setLabels();
+        searchBar();
+    }
+}
+
+function changeLanguageModal(language){
+    if (language != appLanguage){
+        appLanguage = language;
+        setLabels();
         searchBar();
         modalViewUpdate(appLanguage);
     }

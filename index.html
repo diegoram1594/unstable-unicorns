@@ -40,22 +40,32 @@
     <br>
 
     <div class="container_filter">
-        <label class="container_filter_title">Categoria</label> 
+        <label class="container_filter_title" id="category">Categoria</label> 
         <div class="filter_category">
             <div>
-                <input type="checkbox" id="category_unicorn" onclick="categoryFilter()"> <img src="assets/magicUnicron.png" class="img_icon"> Unicornio
+                <input type="checkbox" id="category_unicorn" onclick="categoryFilter()"> 
+                <img src="assets/magicUnicron.png" class="img_icon"> 
+                <div id="category_unicorn_label">Unicornio</div>
             </div>
             <div>
-                <input type="checkbox" id="category_upgrade" onclick="categoryFilter()"> <img src="assets/upgrade.png" class="img_icon"> Mejora
+                <input type="checkbox" id="category_upgrade" onclick="categoryFilter()"> 
+                <img src="assets/upgrade.png" class="img_icon">
+                <div id="category_upgrade_label">Mejora</div>
             </div>
             <div>
-                <input type="checkbox" id="category_instant" onclick="categoryFilter()"> <img src="assets/instant.png" class="img_icon"> Instantanea
+                <input type="checkbox" id="category_instant" onclick="categoryFilter()"> 
+                <img src="assets/instant.png" class="img_icon">
+                <div id="category_instant_label">Instantanea</div> 
             </div>
             <div>
-                <input type="checkbox" id="category_downgrade" onclick="categoryFilter()"> <img src="assets/downgrade.png" class="img_icon"> Deterioro
+                <input type="checkbox" id="category_downgrade" onclick="categoryFilter()"> 
+                <img src="assets/downgrade.png" class="img_icon"> 
+                <div id="category_downgrade_label">Deterioro</div> 
             </div>
             <div>
-                <input type="checkbox" id="category_magic" onclick="categoryFilter()"> <img src="assets/magic.png" class="img_icon"> Magica
+                <input type="checkbox" id="category_magic" onclick="categoryFilter()"> 
+                <img src="assets/magic.png" class="img_icon">
+                <div id="category_magic_label">Magica</div> 
             </div> 
         </div>
     </div>
@@ -100,8 +110,8 @@
                     <img id="language_icon_modal" src="assets/world.png" />
                 </label>
                 <div class="submenu_modal">
-                    <div class="submenu_item_modal" onclick="changeLanguage('en')"><a>EN</a></div>
-                    <div class="submenu_item_modal" onclick="changeLanguage('es')"><a>ES</a></div>
+                    <div class="submenu_item_modal" onclick="changeLanguageModal('en')"><a>EN</a></div>
+                    <div class="submenu_item_modal" onclick="changeLanguageModal('es')"><a>ES</a></div>
                 </div>
             </div>
         </div>
