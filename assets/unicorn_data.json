@@ -8,10 +8,10 @@ unicornData = `[
     },
     {
         "name" : "Annoying Flying Unicorn", 
-        "nameSpanish" : "Unicornio Molesto", 
+        "nameSpanish" : "Plastacornio Volador", 
         "id" : "unicorn_annoying",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMolesto.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/annoying.png"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Annoying Flying Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Annoying Flying Unicorn.png"
     },
     {
         "name" : "Mermaid Unicorn", 
@@ -29,10 +29,10 @@ unicornData = `[
     },
     {
         "name" : "Black Knight Unicorn", 
-        "nameSpanish" : "Caballero Negro", 
+        "nameSpanish" : "Unicornio Caballero Negro", 
         "id" : "unicorn_black_knight",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/caballeroNegro.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/blackknight.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Black Knight Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Black Knight Unicorn.png"
     },
     {
         "name" : "Unicorn On The Cob", 
@@ -43,24 +43,24 @@ unicornData = `[
     },
     {
         "name" : "Magical Kittencorn", 
-        "nameSpanish" : "Gatocornio", 
+        "nameSpanish" : "Gaticornio Mágico", 
         "id" : "unicorn_kittencorn",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/gatocornio.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/kittencorn.png"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Magical Kittencorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Magical Kittencorn.png"
     },
     {
         "name" : "Llamacorn", 
-        "nameSpanish" : "Llamacornio", 
+        "nameSpanish" : "Unipaca", 
         "id" : "unicorn_llamacorn",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/llamacornio.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/llamacorn.png"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Llamacorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Llamacorn.png"
     },
     {
         "name" : "Classy Narwhal", 
         "nameSpanish" : "Narval Con Clase", 
         "id" : "unicorn_classy_narwhal",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/narvalConClase.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/classynarwhal.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Classy Narwhal.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Classy Narwhal.png"
     },
     {
         "name" : "Shabby The Narwhal", 
@@ -71,10 +71,10 @@ unicornData = `[
     },
     {
         "name" : "Alluring Narwhal", 
-        "nameSpanish" : "Narval Seductor", 
+        "nameSpanish" : "Narval Cautivadora", 
         "id" : "unicorn_alluring_narwhal",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/narvalSeductor.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/alluring.png"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Alluring Narwhal.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Alluring Narwhal.png"
     },
     {
         "name" : "Puppicorn", 
@@ -127,31 +127,31 @@ unicornData = `[
     },
     {
         "name" : "Greedy Flying Unicorn", 
-        "nameSpanish" : "Unicornio Codicioso", 
+        "nameSpanish" : "Derrochacornio Volador", 
         "id" : "unicorn_greedy_flying",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioCodicioso.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/greedyflying.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Greedy Flying Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Greedy Flying Unicorn.png"
     },
     {
         "name" : "Chainsaw Unicorn", 
-        "nameSpanish" : "Unicornio Con Motosierra", 
+        "nameSpanish" : "Unicornio De Texas", 
         "id" : "unicorn_chainsaw",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioConMotosierra.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/chainsaw.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Chainsaw Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Chainsaw Unicorn.png"
     },
     {
         "name" : "Ginormous Unicorn", 
-        "nameSpanish" : "Unicornio Descomunal", 
+        "nameSpanish" : "Gordicornio", 
         "id" : "unicorn_ginormous",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioDescomunal.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/ginormous.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Ginormous Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Ginormous Unicorn.png"
     },
     {
         "name" : "Extremely Destructive Unicorn", 
-        "nameSpanish" : "Unicornio Destructor", 
+        "nameSpanish" : "Unicornio Extremadamente Destructivo", 
         "id" : "unicorn_destructive",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioDestructor.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/destructive.png"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Extremely Destructive Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Extremely Destructive Unicorn.png"
     },
     {
         "name" : "Unicorn Phoenix", 
@@ -162,17 +162,17 @@ unicornData = `[
     },
     {
         "name" : "Majestic Flying Unicorn", 
-        "nameSpanish" : "Unicornio Majestuoso", 
+        "nameSpanish" : "Majestucornio Volador", 
         "id" : "unicorn_majestic",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMajestuoso.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/thegreatnarwhal.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Majestic Flying Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Majestic Flying Unicorn.png"
     },
     {
         "name" : "Magical Flying Unicorn", 
-        "nameSpanish" : "Unicornio Mariposa", 
+        "nameSpanish" : "Magicornio Volador", 
         "id" : "unicorn_magical_flying",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/unicornioMariposa.png",
-        "imgSrcEnglish": "assets/english cards/unicorns/magicalflying.jpg"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Magical Flying Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Magical Flying Unicorn.png"
     },
     {
         "name" : "Stabby The Unicorn", 
@@ -204,9 +204,23 @@ unicornData = `[
     },
     {
         "name" : "Americorn", 
-        "nameSpanish" : "Usacornio", 
+        "nameSpanish" : "Americornio", 
         "id" : "unicorn_usa",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/usacornio.png",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Americorn.png",
         "imgSrcEnglish": "assets/english cards/unicorns/americorn.png"
+    },
+    {
+        "name" : "Dark Angel Unicorn", 
+        "nameSpanish" : "Unicornio Ángel Oscuro", 
+        "id" : "dark_unicorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Dark Angel Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Dark Angel Unicorn.png"
+    },
+    {
+        "name" : "Mother Goose Unicorn", 
+        "nameSpanish" : "Unicornio Mamá Ganso", 
+        "id" : "mother_unicorn",
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Mother Goose Unicorn.png",
+        "imgSrcEnglish": "assets/english cards/unicorns/Mother Goose Unicorn.png"
     }
     ]`;
