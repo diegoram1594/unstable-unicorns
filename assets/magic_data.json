@@ -3,106 +3,106 @@ magicData = `[
         "name" : "Back Kick", 
         "nameSpanish" : "Coz", 
         "id" : "magic_back_kick",
-        "imgSrcSpanish": "assets/spanish cards/magic/Back Kick.png",
-        "imgSrcEnglish": "assets/english cards/magic/Back Kick.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Back Kick.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Back Kick.webp"
     },
     {
         "name" : "Blatant Thievery", 
         "nameSpanish" : "Robo Descarado", 
         "id" : "magic_blatant_thievery",
-        "imgSrcSpanish": "assets/spanish cards/magic/Blatant Thievery.png",
-        "imgSrcEnglish": "assets/english cards/magic/Blatant Thievery.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Blatant Thievery.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Blatant Thievery.webp"
     },
     {
         "name" : "Change of Luck", 
         "nameSpanish" : "Golpe De Suerte", 
         "id" : "magic_change_of_luck",
-        "imgSrcSpanish": "assets/spanish cards/magic/Change of Luck.png",
-        "imgSrcEnglish": "assets/english cards/magic/Change of Luck.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Change of Luck.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Change of Luck.webp"
     },
     {
         "name" : "Glitter Tornado", 
         "nameSpanish" : "Tornado De Purpurina", 
         "id" : "magic_glitter_tornado",
-        "imgSrcSpanish": "assets/spanish cards/magic/Glitter Tornado.png",
-        "imgSrcEnglish": "assets/english cards/magic/Glitter Tornado.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Glitter Tornado.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Glitter Tornado.webp"
     },
     {
         "name" : "Good Deal", 
         "nameSpanish" : "Ganga", 
         "id" : "magic_good_deal",
-        "imgSrcSpanish": "assets/spanish cards/magic/Good Deal.png",
-        "imgSrcEnglish": "assets/english cards/magic/Good Deal.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Good Deal.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Good Deal.webp"
     },
     {
         "name" : "Kiss of Life", 
         "nameSpanish" : "Beso De Amor Verdadero", 
         "id" : "magic_kiss_of_life",
-        "imgSrcSpanish": "assets/spanish cards/magic/Kiss of Life.png",
-        "imgSrcEnglish": "assets/english cards/magic/Kiss of Life.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Kiss of Life.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Kiss of Life.webp"
     },
     {
         "name" : "Mystical Vortex", 
         "nameSpanish" : "Beso De Amor Verdadero", 
         "id" : "magic_mystical_vortex",
-        "imgSrcSpanish": "assets/spanish cards/magic/Mystical Vortex.png",
-        "imgSrcEnglish": "assets/english cards/magic/Mystical Vortex.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Mystical Vortex.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Mystical Vortex.webp"
     },
     {
         "name" : "Re-Target", 
         "nameSpanish" : "Cambio De Objetivo", 
         "id" : "magic_re_target",
-        "imgSrcSpanish": "assets/spanish cards/magic/Re-Target.png",
-        "imgSrcEnglish": "assets/english cards/magic/Re-Target.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Re-Target.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Re-Target.webp"
     },
     {
         "name" : "Reset Button", 
         "nameSpanish" : "Botón De Reinicio", 
         "id" : "magic_reset_button",
-        "imgSrcSpanish": "assets/spanish cards/magic/Reset Button.png",
-        "imgSrcEnglish": "assets/english cards/magic/Reset Button.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Reset Button.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Reset Button.webp"
     },
     {
         "name" : "Shake Up", 
         "nameSpanish" : "Agitar", 
         "id" : "magic_shake_up",
-        "imgSrcSpanish": "assets/spanish cards/magic/Shake Up.png",
-        "imgSrcEnglish": "assets/english cards/magic/Shake Up.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Shake Up.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Shake Up.webp"
     },
     {
         "name" : "Targeted Destruction", 
         "nameSpanish" : "Destrucción Selectiva", 
         "id" : "magic_targeted_destruction",
-        "imgSrcSpanish": "assets/spanish cards/magic/Targeted Destruction.png",
-        "imgSrcEnglish": "assets/english cards/magic/Targeted Destruction.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Targeted Destruction.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Targeted Destruction.webp"
     },
     {
         "name" : "Two-For-One", 
         "nameSpanish" : "Dos Por Uno", 
         "id" : "magic_two_for_one",
-        "imgSrcSpanish": "assets/spanish cards/magic/Two-For-One.png",
-        "imgSrcEnglish": "assets/english cards/magic/Two-For-One.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Two-For-One.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Two-For-One.webp"
     },
     {
         "name" : "Unfair Bargain", 
         "nameSpanish" : "Trato Injusto", 
         "id" : "magic_unfair_bargain",
-        "imgSrcSpanish": "assets/spanish cards/magic/Unfair Bargain.png",
-        "imgSrcEnglish": "assets/english cards/magic/Unfair Bargain.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Unfair Bargain.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Unfair Bargain.webp"
     },
     {
         "name" : "Unicorn Poison", 
         "nameSpanish" : "Veneno De Unicornio", 
         "id" : "magic_unicorn_poison",
-        "imgSrcSpanish": "assets/spanish cards/magic/Unicorn Poison.png",
-        "imgSrcEnglish": "assets/english cards/magic/Unicorn Poison.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Unicorn Poison.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Unicorn Poison.webp"
     },
     {
         "name" : "Unicorn Swap", 
         "nameSpanish" : "Intercambio De Unicornios", 
         "id" : "magic_unicorn_swap",
-        "imgSrcSpanish": "assets/spanish cards/magic/Unicorn Swap.png",
-        "imgSrcEnglish": "assets/english cards/magic/Unicorn Swap.png"
+        "imgSrcSpanish": "assets/spanish cards/magic/Unicorn Swap.webp",
+        "imgSrcEnglish": "assets/english cards/magic/Unicorn Swap.webp"
     }
     
     ]`;

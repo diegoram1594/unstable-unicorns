@@ -3,57 +3,57 @@ upgradeData = `[
         "name" : "Caffeine Overload", 
         "nameSpanish" : "Hasta Las Cejas De Cafeína", 
         "id" : "upgrade_caffeine_overload",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Caffeine Overload.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Caffeine Overload.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Caffeine Overload.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Caffeine Overload.webp"
     },
     {
         "name" : "Claw Machine", 
         "nameSpanish" : "Tragamonedas", 
         "id" : "upgrade_claw_machine",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Claw Machine.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Claw Machine.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Claw Machine.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Claw Machine.webp"
     },
     {
         "name" : "Double Dutch", 
         "nameSpanish" : "Doble Comba", 
         "id" : "upgrade_double_dutch",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Double Dutch.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Double Dutch.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Double Dutch.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Double Dutch.webp"
     },
     {
         "name" : "Glitter Bomb", 
         "nameSpanish" : "Bomba De Purpurina", 
         "id" : "upgrade_glitter_bomb",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Glitter Bomb.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Glitter Bomb.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Glitter Bomb.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Glitter Bomb.webp"
     },
     {
         "name" : "Rainbow Aura", 
         "nameSpanish" : "Aura Arcoiris", 
         "id" : "upgrade_aura",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Rainbow Aura.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Rainbow Aura.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Rainbow Aura.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Rainbow Aura.webp"
     },
     {
         "name" : "Rainbow Lasso", 
         "nameSpanish" : "Lazo Del Arcoíris", 
         "id" : "upgrade_lasso",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Rainbow Lasso.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Rainbow Lasso.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Rainbow Lasso.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Rainbow Lasso.webp"
     },
     {
         "name" : "Stable Artillery", 
         "nameSpanish" : "Artillería En El Establo", 
         "id" : "upgrade_stable_artillery",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Stable Artillery.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Stable Artillery.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Stable Artillery.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Stable Artillery.webp"
     },
     {
         "name" : "Yay", 
         "nameSpanish" : "Hurra", 
         "id" : "upgrade_yay",
-        "imgSrcSpanish": "assets/spanish cards/upgrades/Yay.png",
-        "imgSrcEnglish": "assets/english cards/upgrades/Yay.png"
+        "imgSrcSpanish": "assets/spanish cards/upgrades/Yay.webp",
+        "imgSrcEnglish": "assets/english cards/upgrades/Yay.webp"
     }
 
     ]`;
