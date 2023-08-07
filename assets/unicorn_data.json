@@ -88,8 +88,8 @@ unicornData = `[
         "name" : "Shark With A Horn", 
         "nameSpanish" : "Tiburón Cornudo", 
         "id" : "unicorn_shark_horn",
-        "imgSrcSpanish": "assets/spanish cards/unicorns/Shark With A Horn.webp",
-        "imgSrcEnglish": "assets/english cards/unicorns/Shark With A Horn.webp"
+        "imgSrcSpanish": "assets/spanish cards/unicorns/Shark.webp",
+        "imgSrcEnglish": "assets/english cards/unicorns/Shark.webp"
     },
     {
         "name" : "Narwhal Torpedo", 
