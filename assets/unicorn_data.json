@@ -173,7 +173,7 @@ unicornData = `[
         "nameSpanish" : "Americornio", 
         "id" : "unicorn_usa",
         "imgSrcSpanish": "assets/spanish cards/unicorns/Americorn.webp",
-        "imgSrcEnglish": "assets/english cards/unicorns/americorn.webp"
+        "imgSrcEnglish": "assets/english cards/unicorns/Americorn.webp"
     },
     {
         "name" : "Dark Angel Unicorn", 
