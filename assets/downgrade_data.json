@@ -1,24 +1,59 @@
 downgradeData = `[
     {
         "name" : "Tiny Stable", 
-        "nameSpanish" : "Establo Pequeño", 
+        "nameSpanish" : "Establo Diminuto",
         "id" : "downgrade_tiny_stable",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/establoPequeno.png",
-        "imgSrcEnglish": "assets/english cards/downgrades/tinystable.jpg"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Tiny Stable.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Tiny Stable.webp"
     },
     {
         "name" : "Sadistic Ritual", 
-        "nameSpanish" : "Establo Sadico", 
+        "nameSpanish" : "Ritual Sádico",
         "id" : "downgrade_sadistic",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/ritualSadico.png",
-        "imgSrcEnglish": "assets/english cards/downgrades/sadisticritual.jpg"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Sadistic Ritual.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Sadistic Ritual.webp"
     },
     {
         "name" : "Broken Stable", 
-        "nameSpanish" : "Establo Roto", 
+        "nameSpanish" : "Establo En Obras",
         "id" : "downgrade_broken_stable",
-        "imgSrcSpanish": "assets/spanish cards/downgrades/establoRoto.png",
-        "imgSrcEnglish": "assets/english cards/downgrades/brokenstable.jpg"
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Broken Stable.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Broken Stable.webp"
+    },
+    {
+        "name" : "Barbed Wire",
+        "nameSpanish" : "Alambre De Púas",
+        "id" : "downgrade_barbed_wire",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Barbed Wire.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Barbed Wire.webp"
+    },
+    {
+        "name" : "Blinding Light",
+        "nameSpanish" : "Luz Cegadora",
+        "id" : "downgrade_blinding_light",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Blinding Light.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Blinding Light.webp"
+    },
+    {
+        "name" : "Nanny Cam",
+        "nameSpanish" : "Cámara Para La Niñera",
+        "id" : "downgrade_nanny_cam",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Nanny Cam.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Nanny Cam.webp"
+    },
+    {
+        "name" : "Pandamonium",
+        "nameSpanish" : "Pandamonio",
+        "id" : "downgrade_pandamonium",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Pandamonium.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Pandamonium.webp"
+    },
+    {
+        "name" : "Slowdown",
+        "nameSpanish" : "Ralentización",
+        "id" : "downgrade_slowdown",
+        "imgSrcSpanish": "assets/spanish cards/downgrades/Slowdown.webp",
+        "imgSrcEnglish": "assets/english cards/downgrades/Slowdown.webp"
     }
 
     ]`;

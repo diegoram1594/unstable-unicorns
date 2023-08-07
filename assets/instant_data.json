@@ -1,3 +1,16 @@
 instantData = `[
-
+    {
+        "name" : "Neigh",
+        "nameSpanish" : "Relincho",
+        "id" : "instant_neigh",
+        "imgSrcSpanish": "assets/spanish cards/instant/Neigh.webp",
+        "imgSrcEnglish": "assets/english cards/instant/Neigh.webp"
+    },
+    {
+        "name" : "Super Neigh",
+        "nameSpanish" : "Súperrelincho",
+        "id" : "instant_super_neigh",
+        "imgSrcSpanish": "assets/spanish cards/instant/Super Neigh.webp",
+        "imgSrcEnglish": "assets/english cards/instant/Super Neigh.webp"
+    }
     ]`;

@@ -14,10 +14,10 @@ function modalView(imageId){
 function modalViewUpdate(appLanguage){
     if (imageIdModal == "rules"){
         if(appLanguage == "es"){
-            modalImg.src = "assets/reglas.png";
+            modalImg.src = "assets/reglas.webp";
         }
         if(appLanguage == "en"){
-            modalImg.src = "assets/rules.png";
+            modalImg.src = "assets/rules.webp";
         }
         modalImg.classList.add('flip-card-inner');
         setTimeout(()=> modalImg.classList.remove('flip-card-inner'), 255);
@@ -41,6 +41,6 @@ function modalRules() {
     document.getElementById("language_selector_modal").checked = false;
     imageIdModal = "rules";
     modal.style.display = "block";
-    modalImg.src = "assets/reglas.png";
+    modalImg.src = "assets/reglas.webp";
     document.body.style.overflowY= "hidden";
 }
