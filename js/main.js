@@ -93,11 +93,11 @@ function addCard(item, container){
 }
 
 function searchContainer(container, list, separatorName, visibility){
-    let text = document.getElementById("search").value.toLowerCase().trim();
+    let searchedText = document.getElementById("search").value.trim();
     let separator = document.getElementById(separatorName);
-    let filterElements = list.filter(value => 
-        (value.name.toLowerCase().includes(text) || 
-        value.nameSpanish.toLowerCase().includes(text)) &&  visibility);
+    let filterElements = list.filter(card =>
+        (searchInclude(card.name, searchedText) ||
+         searchInclude(card.nameSpanish, searchedText)) &&  visibility);
     container.replaceChildren();
     filterElements.forEach(item => {
         addCard(item, container);
@@ -108,6 +108,16 @@ function searchContainer(container, list, separatorName, visibility){
     else{
         separator.style.display = "flex";
     }   
+}
+
+function searchInclude(cardName, searchedText){
+    cardName = convertString(cardName);
+    searchedText = convertString(searchedText);
+    return cardName.includes(searchedText);
+}
+
+function convertString(string){
+  return string.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
 function searchBar(){
